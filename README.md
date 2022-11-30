@@ -1,8 +1,16 @@
+Exp: 06
+
+Date:11.10.2022
+
+
 # Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
-### THEORY 
+## AIM: 
+To implement 4 bit up and down counters and validate  functionality.
+## HARDWARE REQUIRED:  
+– PC, Cyclone II , USB flasher
+## SOFTWARE REQUIRED:  
+Quartus prime
+## THEORY 
 
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
@@ -45,7 +53,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 4-bit Count Down Counter
-### Procedure
+## Procedure
 1. Create module projectname(input ,output) to start the verilog programming.
 2. create a if loop condition to increase the count in counter_up function.
 3. Similarly, create another loop for the down counter.
@@ -54,9 +62,9 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 
-### PROGRAM 
+## PROGRAM 
 ```
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
+Program for counters  and verify its truth table in quartus using Verilog programming.
 Developed by: Kaushika A
 RegisterNumber:  212221230048
 ```
